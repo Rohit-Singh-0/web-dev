@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(black, aqua);
+}
+ul{
+    display: inline-flex;
+    width: 100vw;
+    height: 7vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    position: relative;
+    width: 2.5vw;
+    align-items: flex-start;
+    right: 31vw;
+}
+li{
+    
+    list-style: none;
+    margin: 1vh 0;
+    padding-left: 5vw;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.image{
+    width: 40vw;
+
+}
+.imga{
+    width: 40vw;
+     margin: 11vh 0vw;
+    position: relative;
+    right: -5vw;
+    border-radius: 50px;
+    border: 3px solid  aqua;
+}
+       
+.form-bg{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 50vh;
+    background-image: linear-gradient(black,rgb(50, 50, 50));
+    border-radius: 50px;
+    z-index: -2;
+    position: relative;
+}
+.content{
+    width: 50vw;
+    right: -55vw;
+    position: relative;
+    bottom: 65vh;
+
+}
+#username, #password {
+    position: relative;
+    width: 26vw;
+    height: 6vh;
+    margin-top: 8vh;
+    border-radius: 10px;
+    font-size: medium;
+}
+button{
+    width: 20vw;
+    height: 7vh;
+    background: transparent;
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    left: 65vw;
+    bottom: 80vh;
+
+}
+.btn-eff{
+    height: 100%;
+    width: 0%;
+    background-color: aqua;
+    position: absolute;
+    
+    transition: 0.5s;
+    left: 0vw;
+    bottom: 0vh;
+    z-index:-1 ;
+}
+
+button:hover .btn-eff{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+    color: black;
+}
+p{
+    color: aqua;
+    width: 10vw;
+    font-size: 9px;
+    bottom: 78vh;
+    position: relative;
+    left: 70vw;
+}
